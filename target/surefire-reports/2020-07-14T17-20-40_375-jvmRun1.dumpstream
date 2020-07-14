@@ -1,0 +1,173 @@
+# Created at 2020-07-14T17:21:50.593
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-07-14T17:22:35.040
+Unexpected IOException with stream:   Then clicks on Public Announcement                       # stepDefinitions.stepDefinition.clicks_on_public_announcement()
+
+# Created at 2020-07-14T17:22:35.041
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.042
+Unexpected IOException with stream:       java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at stepDefinitions.stepDefinition.clicks_on_public_announcement(stepDefinition.java:581)
+	at ?.clicks on Public Announcement(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:119)
+
+
+# Created at 2020-07-14T17:22:35.043
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.046
+Unexpected IOException with stream:   Then Clicks on Plus sign and sends a public announcement # stepDefinitions.stepDefinition.clicks_on_plus_sign_and_sends_a_public_announcement()
+
+# Created at 2020-07-14T17:22:35.048
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.053
+Unexpected IOException: 7,1,easy Time Pro Android Application Validation,user is able to send the Public Announcement(easy Time Pro Android Application Validation),null,Index: 3\002C Size: 0,null,Index: 3\002C Size: 0,Index: 3\002C Size: 0,java.lang.IndexOutOfBoundsException: Index: 3\002C Size: 0\000A
+
+
+# Created at 2020-07-14T17:22:35.060
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.061
+Unexpected IOException with stream: Failed scenarios:
+
+# Created at 2020-07-14T17:22:35.062
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.063
+Unexpected IOException with stream: file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:115
+
+# Created at 2020-07-14T17:22:35.063
+Unexpected IOException with stream: # user is able to send the Public Announcement
+
+# Created at 2020-07-14T17:22:35.064
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.065
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.065
+Unexpected IOException with stream: 1
+
+# Created at 2020-07-14T17:22:35.066
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-07-14T17:22:35.067
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-07-14T17:22:35.068
+Unexpected IOException with stream: )
+
+# Created at 2020-07-14T17:22:35.068
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.069
+Unexpected IOException with stream: 5
+
+# Created at 2020-07-14T17:22:35.070
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-07-14T17:22:35.070
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-07-14T17:22:35.071
+Unexpected IOException with stream: , 
+
+# Created at 2020-07-14T17:22:35.072
+Unexpected IOException with stream: 1 skipped
+
+# Created at 2020-07-14T17:22:35.072
+Unexpected IOException with stream: , 
+
+# Created at 2020-07-14T17:22:35.073
+Unexpected IOException with stream: 3 passed
+
+# Created at 2020-07-14T17:22:35.074
+Unexpected IOException with stream: )
+
+# Created at 2020-07-14T17:22:35.075
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.075
+Unexpected IOException with stream: 1m
+
+# Created at 2020-07-14T17:22:35.076
+Unexpected IOException with stream: 53.831s
+
+# Created at 2020-07-14T17:22:35.077
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.078
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.078
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.079
+Unexpected IOException with stream: java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+
+# Created at 2020-07-14T17:22:35.079
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.080
+Unexpected IOException with stream: 	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+
+# Created at 2020-07-14T17:22:35.081
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.081
+Unexpected IOException with stream: 	at java.util.ArrayList.get(ArrayList.java:433)
+
+# Created at 2020-07-14T17:22:35.082
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.083
+Unexpected IOException with stream: 	at stepDefinitions.stepDefinition.clicks_on_public_announcement(stepDefinition.java:581)
+
+# Created at 2020-07-14T17:22:35.084
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.084
+Unexpected IOException with stream: 	at ?.clicks on Public Announcement(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:119)
+
+# Created at 2020-07-14T17:22:35.085
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.086
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.087
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T17:22:35.088
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,TestRunner.TestRunner,null,null,null
+
+

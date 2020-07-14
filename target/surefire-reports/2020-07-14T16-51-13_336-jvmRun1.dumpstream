@@ -1,0 +1,377 @@
+# Created at 2020-07-14T16:51:53.922
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-07-14T16:52:34.997
+Unexpected IOException with stream:   When clicks punch on dashboard                       # stepDefinitions.stepDefinition.clicks_punch_on_dashboard()
+
+# Created at 2020-07-14T16:52:35.026
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.028
+Unexpected IOException with stream:       org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2640ede0-1eb4-45e9-b6e1-8fa8fbe448eb
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/img_click}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.clicks_punch_on_dashboard(stepDefinition.java:105)
+	at ?.clicks punch on dashboard(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:153)
+
+
+# Created at 2020-07-14T16:52:35.029
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.264
+Unexpected IOException with stream:   Then Clicks on outdoor punch and does the punch      # stepDefinitions.stepDefinition.clicks_on_outdoor_punch_and_does_the_punch()
+
+# Created at 2020-07-14T16:52:35.265
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.272
+Unexpected IOException: 7,1,easy Time Pro Android Application Validation,user is able to Outdoor Punch from Dashboard(easy Time Pro Android Application Validation),null,An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 2640ede0-1eb4-45e9-b6e1-8fa8fbe448eb\000A*** Element info: {Using=id\002C value=com.zkteco.easytimepro:id/img_click},null,An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 2640ede0-1eb4-45e9-b6e1-8fa8fbe448eb\000A*** Element info: {Using=id\002C value=com.zkteco.easytimepro:id/img_click},An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 2640ede0-1eb4-45e9-b6e1-8fa8fbe448eb\000A*** Element info: {Using=id\002C value=com.zkteco.easytimepro:id/img_click},org.openqa.selenium.WebDriverException: \000AAn unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 2640ede0-1eb4-45e9-b6e1-8fa8fbe448eb\000A*** Element info: {Using=id\002C value=com.zkteco.easytimepro:id/img_click}\000A
+
+
+# Created at 2020-07-14T16:52:35.280
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.281
+Unexpected IOException with stream: Failed scenarios:
+
+# Created at 2020-07-14T16:52:35.282
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.282
+Unexpected IOException with stream: file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:151
+
+# Created at 2020-07-14T16:52:35.283
+Unexpected IOException with stream: # user is able to Outdoor Punch from Dashboard
+
+# Created at 2020-07-14T16:52:35.284
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.284
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.285
+Unexpected IOException with stream: 1
+
+# Created at 2020-07-14T16:52:35.286
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-07-14T16:52:35.287
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-07-14T16:52:35.288
+Unexpected IOException with stream: )
+
+# Created at 2020-07-14T16:52:35.288
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.289
+Unexpected IOException with stream: 3
+
+# Created at 2020-07-14T16:52:35.290
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-07-14T16:52:35.291
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-07-14T16:52:35.292
+Unexpected IOException with stream: , 
+
+# Created at 2020-07-14T16:52:35.293
+Unexpected IOException with stream: 1 skipped
+
+# Created at 2020-07-14T16:52:35.294
+Unexpected IOException with stream: , 
+
+# Created at 2020-07-14T16:52:35.294
+Unexpected IOException with stream: 1 passed
+
+# Created at 2020-07-14T16:52:35.295
+Unexpected IOException with stream: )
+
+# Created at 2020-07-14T16:52:35.296
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.297
+Unexpected IOException with stream: 1m
+
+# Created at 2020-07-14T16:52:35.298
+Unexpected IOException with stream: 21.073s
+
+# Created at 2020-07-14T16:52:35.299
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.300
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.301
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.302
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2640ede0-1eb4-45e9-b6e1-8fa8fbe448eb
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/img_click}
+
+# Created at 2020-07-14T16:52:35.302
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.303
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-07-14T16:52:35.304
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.304
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-07-14T16:52:35.305
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.306
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-07-14T16:52:35.306
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.307
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-07-14T16:52:35.308
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.309
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-07-14T16:52:35.310
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.311
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-07-14T16:52:35.312
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.313
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-07-14T16:52:35.313
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.314
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-07-14T16:52:35.315
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.316
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+
+# Created at 2020-07-14T16:52:35.316
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.317
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-07-14T16:52:35.318
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.319
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+
+# Created at 2020-07-14T16:52:35.320
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.321
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+
+# Created at 2020-07-14T16:52:35.322
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.322
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+
+# Created at 2020-07-14T16:52:35.324
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.325
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2020-07-14T16:52:35.326
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.327
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+
+# Created at 2020-07-14T16:52:35.327
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.328
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2020-07-14T16:52:35.329
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.330
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2020-07-14T16:52:35.347
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.348
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+
+# Created at 2020-07-14T16:52:35.350
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.350
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+
+# Created at 2020-07-14T16:52:35.351
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.352
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+
+# Created at 2020-07-14T16:52:35.353
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.354
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+
+# Created at 2020-07-14T16:52:35.355
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.356
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ById.findElement(By.java:188)
+
+# Created at 2020-07-14T16:52:35.357
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.357
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2020-07-14T16:52:35.358
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.360
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+
+# Created at 2020-07-14T16:52:35.361
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.361
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2020-07-14T16:52:35.362
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.363
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2020-07-14T16:52:35.364
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.365
+Unexpected IOException with stream: 	at stepDefinitions.stepDefinition.clicks_punch_on_dashboard(stepDefinition.java:105)
+
+# Created at 2020-07-14T16:52:35.365
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.366
+Unexpected IOException with stream: 	at ?.clicks punch on dashboard(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:153)
+
+# Created at 2020-07-14T16:52:35.367
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.368
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.368
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:52:35.369
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,TestRunner.TestRunner,null,null,null
+
+

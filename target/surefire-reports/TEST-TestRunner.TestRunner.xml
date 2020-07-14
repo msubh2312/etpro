@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunner.TestRunner" time="2,088.93" tests="41" errors="11" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\eclipse-workspace\easyTimeProAndroidBDD\target\test-classes;C:\Users\Admin\eclipse-workspace\easyTimeProAndroidBDD\target\classes;C:\Users\Admin\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\Admin\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\Admin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Admin\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\Admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\4.0.1\poi-4.0.1.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml\4.0.1\poi-ooxml-4.0.1.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.1\poi-ooxml-schemas-4.0.1.jar;C:\Users\Admin\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.2\xmlbeans-3.0.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Admin\.m2\repository\com\github\virtuald\curvesapi\1.05\curvesapi-1.05.jar;C:\Users\Admin\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\Admin\.m2\repository\com\google\inject\guice\2.0\guice-2.0.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Admin\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire9031653926155975140\surefirebooter5335618201998728558.jar C:\Users\Admin\AppData\Local\Temp\surefire9031653926155975140 2020-07-14T17-31-35_091-jvmRun1 surefire7012301811005215232tmp surefire_05504587936650012128tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\eclipse-workspace\easyTimeProAndroidBDD\target\test-classes;C:\Users\Admin\eclipse-workspace\easyTimeProAndroidBDD\target\classes;C:\Users\Admin\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\Admin\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\Admin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Admin\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\Admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\4.0.1\poi-4.0.1.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml\4.0.1\poi-ooxml-4.0.1.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.1\poi-ooxml-schemas-4.0.1.jar;C:\Users\Admin\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.2\xmlbeans-3.0.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Admin\.m2\repository\com\github\virtuald\curvesapi\1.05\curvesapi-1.05.jar;C:\Users\Admin\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\Admin\.m2\repository\com\google\inject\guice\2.0\guice-2.0.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Admin\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="basedir" value="C:\Users\Admin\eclipse-workspace\easyTimeProAndroidBDD"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire9031653926155975140\surefirebooter5335618201998728558.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="C:\Users\Admin\eclipse-workspace\easyTimeProAndroidBDD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Testing Necesity\apache-maven-3.6.3\bin;C:\Program Files\nodejs;C:\Users\Admin\AppData\Local\Android\Sdk\tools;C:\Users\Admin\AppData\Local\Android\Sdk\tools\bin;C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="User is able to login" classname="easy Time Pro Android Application Validation" time="38.389"/>
+  <testcase name="User is able to reset password" classname="easy Time Pro Android Application Validation" time="34.868"/>
+  <testcase name="User can see all menu options" classname="easy Time Pro Android Application Validation" time="60.601">
+    <error message="Index: 10, Size: 10" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 10, Size: 10
+</error>
+    <system-out><![CDATA[
+@TC_03
+Scenario: User can see all menu options # src/test/java/features/etProAndroid.feature:17
+  Given User has successfully logged in # stepDefinitions.stepDefinition.user_has_successfully_logged_in()
+  When clicks on menu button            # stepDefinitions.stepDefinition.clicks_on_menu_button()
+14
+Schedule
+Profile
+Request
+Outdoor
+Attendance
+My Status
+Contact
+Notifications
+Announcement
+Sign out
+  Then menu options are shown           # stepDefinitions.stepDefinition.menu_options_are_shown()
+      java.lang.IndexOutOfBoundsException: Index: 10, Size: 10
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at stepDefinitions.stepDefinition.menu_options_are_shown(stepDefinition.java:197)
+	at ?.menu options are shown(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:20)
+
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 5:33:11 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="user is able to logout from the application" classname="easy Time Pro Android Application Validation" time="38.702"/>
+  <testcase name="user is able to view the Profile" classname="easy Time Pro Android Application Validation" time="41.627"/>
+  <testcase name="user is able to navigate to settings in Profile" classname="easy Time Pro Android Application Validation" time="41.819"/>
+  <testcase name="user is able to check the schedule details" classname="easy Time Pro Android Application Validation" time="37.723"/>
+  <testcase name="user is able to request for change schedule" classname="easy Time Pro Android Application Validation" time="99.271">
+    <error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SUBHANKAR&apos;, ip: &apos;192.168.4.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 3edb69eb-c82b-48e7-9488-a93b70e8b88d&#10;*** Element info: {Using=id, value=com.zkteco.easytimepro:id/btn_schedule}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3edb69eb-c82b-48e7-9488-a93b70e8b88d
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/btn_schedule}
+</error>
+    <system-out><![CDATA[
+@TC_12
+Scenario: user is able to request for change schedule # src/test/java/features/etProAndroid.feature:47
+  Given User has successfully logged in               # stepDefinitions.stepDefinition.user_has_successfully_logged_in()
+  When clicks on menu button                          # stepDefinitions.stepDefinition.clicks_on_menu_button()
+  Then clicks on schedule                             # stepDefinitions.stepDefinition.clicks_on_schedule()
+  Then clicks on Change Schedule button               # stepDefinitions.stepDefinition.clicks_on_change_schedule_button()
+      org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3edb69eb-c82b-48e7-9488-a93b70e8b88d
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/btn_schedule}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.clicks_on_change_schedule_button(stepDefinition.java:467)
+	at ?.clicks on Change Schedule button(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:51)
+
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 5:36:51 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="user is able to request for change schedule" classname="easy Time Pro Android Application Validation" time="40.113"/>
+  <testcase name="user is able to view the pending Leave Status" classname="easy Time Pro Android Application Validation" time="40.221"/>
+  <testcase name="user is able to view the pending Training Status" classname="easy Time Pro Android Application Validation" time="40.435"/>
+  <testcase name="user is able to view the pending Schedule Status" classname="easy Time Pro Android Application Validation" time="40.579"/>
+  <testcase name="user is able to view the pending Manual Punch Status" classname="easy Time Pro Android Application Validation" time="41.994"/>
+  <testcase name="user is able to view all the contacts" classname="easy Time Pro Android Application Validation" time="101.238">
+    <error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SUBHANKAR&apos;, ip: &apos;192.168.4.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 143768e2-7b7f-4cdc-947e-3f89619961d5&#10;*** Element info: {Using=id, value=com.zkteco.easytimepro:id/tv_name_cpinfo}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 143768e2-7b7f-4cdc-947e-3f89619961d5
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/tv_name_cpinfo}
+</error>
+    <system-out><![CDATA[
+@TC_18
+Scenario: user is able to view all the contacts  # src/test/java/features/etProAndroid.feature:89
+  Given User has successfully logged in          # stepDefinitions.stepDefinition.user_has_successfully_logged_in()
+  When clicks on menu button                     # stepDefinitions.stepDefinition.clicks_on_menu_button()
+  Then clicks on my status                       # stepDefinitions.stepDefinition.clicks_on_my_status()
+  Then clicks on Contacts                        # stepDefinitions.stepDefinition.clicks_on_contacts()
+  Then validates a random Contact by clicking it # stepDefinitions.stepDefinition.validates_a_random_Contact_by_clicking_it()
+      org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 143768e2-7b7f-4cdc-947e-3f89619961d5
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/tv_name_cpinfo}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.validates_a_random_Contact_by_clicking_it(stepDefinition.java:516)
+	at ?.validates a random Contact by clicking it(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:94)
+
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 5:41:54 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="user is able to search contact by Employee ID or Name" classname="easy Time Pro Android Application Validation" time="99.928">
+    <error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SUBHANKAR&apos;, ip: &apos;192.168.4.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: c7d2c535-1da8-4e84-855b-622de42ecfee&#10;*** Element info: {Using=id, value=com.zkteco.easytimepro:id/et_search_contact}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c7d2c535-1da8-4e84-855b-622de42ecfee
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/et_search_contact}
+</error>
+    <system-out><![CDATA[
+@TC_19
+Scenario: user is able to search contact by Employee ID or Name # src/test/java/features/etProAndroid.feature:96
+  Given User has successfully logged in                         # stepDefinitions.stepDefinition.user_has_successfully_logged_in()
+  When clicks on menu button                                    # stepDefinitions.stepDefinition.clicks_on_menu_button()
+  Then clicks on my status                                      # stepDefinitions.stepDefinition.clicks_on_my_status()
+  Then clicks on Contacts                                       # stepDefinitions.stepDefinition.clicks_on_contacts()
+  Then searches for a contact with ID and name                  # stepDefinitions.stepDefinition.searches_for_a_contact_with_id_and_name()
+      org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c7d2c535-1da8-4e84-855b-622de42ecfee
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/et_search_contact}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.searches_for_a_contact_with_id_and_name(stepDefinition.java:526)
+	at ?.searches for a contact with ID and name(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:101)
+
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 5:43:36 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="user is able to get the Private Announcement" classname="easy Time Pro Android Application Validation" time="41.329"/>
+  <testcase name="user is able to get the Public Announcement" classname="easy Time Pro Android Application Validation" time="53.436">
+    <error message="Index: 4, Size: 4" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 4, Size: 4
+</error>
+    <system-out><![CDATA[
+@TC_21
+Scenario: user is able to get the Public Announcement # src/test/java/features/etProAndroid.feature:109
+  Given User has successfully logged in               # stepDefinitions.stepDefinition.user_has_successfully_logged_in()
+  When clicks on menu button                          # stepDefinitions.stepDefinition.clicks_on_menu_button()
+  Then clicks on Announcement                         # stepDefinitions.stepDefinition.clicks_on_announcement()
+Message Type : Public
+Message Sender : Android
+Message Subject : PM BY AT1 AS ADMIN
+Message Body : 
+Message Type : Public
+Message Sender : AndroidAdmin
+Message Subject : Public message
+Message Body : 
+Message Type : Public
+Message Sender : AndroidAdmin
+Message Subject : Public message
+Message Body : 
+Message Type : Public
+Message Sender : AndroidAdmin
+Message Subject : Public message
+Message Body : 
+  Then clicks on Public Announcement                  # stepDefinitions.stepDefinition.clicks_on_public_announcement()
+      java.lang.IndexOutOfBoundsException: Index: 4, Size: 4
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at stepDefinitions.stepDefinition.clicks_on_public_announcement(stepDefinition.java:577)
+	at ?.clicks on Public Announcement(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:113)
+
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 5:45:57 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="user is able to send the Public Announcement" classname="easy Time Pro Android Application Validation" time="59.618"/>
+  <testcase name="user is able to send the Private Announcement" classname="easy Time Pro Android Application Validation" time="52.676"/>
+  <testcase name="user is able to Punch after navigating to Menu" classname="easy Time Pro Android Application Validation" time="83.909">
+    <error message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SUBHANKAR&apos;, ip: &apos;192.168.4.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 772935f3-44aa-49c9-99aa-67be567914cb&#10;*** Element info: {Using=id, value=com.zkteco.easytimepro:id/ll_recent}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 772935f3-44aa-49c9-99aa-67be567914cb
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/ll_recent}
+</error>
+    <system-out><![CDATA[
+@TC_24
+Scenario: user is able to Punch after navigating to Menu # src/test/java/features/etProAndroid.feature:131
+  Given User has successfully logged in                  # stepDefinitions.stepDefinition.user_has_successfully_logged_in()
+  When navigates to menu and clicks PUNCH                # stepDefinitions.stepDefinition.navigates_to_menu_and_clicks_punch()
+  Then fills up the details and punches                  # stepDefinitions.stepDefinition.fills_up_the_details_and_punches()
+      org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 772935f3-44aa-49c9-99aa-67be567914cb
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/ll_recent}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.fills_up_the_details_and_punches(stepDefinition.java:127)
+	at ?.fills up the details and punches(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:134)
+
+  Then navigates to recent punches and validates         # stepDefinitions.stepDefinition.navigates_to_recent_punches_and_validates()
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 5:48:43 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="user is able to Outdoor Punch after navigating to Menu" classname="easy Time Pro Android Application Validation" time="64.109"/>
+  <testcase name="user is able to Punch Attendance from dashboard" classname="easy Time Pro Android Application Validation" time="45.848">
+    <error message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SUBHANKAR&apos;, ip: &apos;192.168.4.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 185d8762-ac4a-49fa-b9e9-5a018a1c7a13&#10;*** Element info: {Using=id, value=com.zkteco.easytimepro:id/ll_recent}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 185d8762-ac4a-49fa-b9e9-5a018a1c7a13
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/ll_recent}
+</error>
+    <system-out><![CDATA[
+@TC_26
+Scenario: user is able to Punch Attendance from dashboard # src/test/java/features/etProAndroid.feature:145
+  Given User has successfully logged in                   # stepDefinitions.stepDefinition.user_has_successfully_logged_in()
+  When clicks punch on dashboard                          # stepDefinitions.stepDefinition.clicks_punch_on_dashboard()
+  Then fills up the details and punches                   # stepDefinitions.stepDefinition.fills_up_the_details_and_punches()
+      org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 185d8762-ac4a-49fa-b9e9-5a018a1c7a13
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/ll_recent}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.fills_up_the_details_and_punches(stepDefinition.java:127)
+	at ?.fills up the details and punches(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:148)
+
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 5:51:11 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="user is able to Outdoor Punch from Dashboard" classname="easy Time Pro Android Application Validation" time="58.242"/>
+  <testcase name="user is able to view Attendance exception notifications" classname="easy Time Pro Android Application Validation" time="43.031"/>
+  <testcase name="user is able to view Schedule notifications" classname="easy Time Pro Android Application Validation" time="39.987">
+    <error message="The element &apos;By.xpath: //android.widget.TextView[@text=&apos;Schedule&apos;]&apos; does not exist in DOM anymore&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SUBHANKAR&apos;, ip: &apos;192.168.4.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: d084539d-df3c-439a-ac17-bff0c8ec3dc2" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+The element 'By.xpath: //android.widget.TextView[@text='Schedule']' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d084539d-df3c-439a-ac17-bff0c8ec3dc2
+</error>
+    <system-out><![CDATA[
+@TC_36
+Scenario: user is able to view Schedule notifications   # src/test/java/features/etProAndroid.feature:163
+  Given User has successfully logged in                 # stepDefinitions.stepDefinition.user_has_successfully_logged_in()
+  When user clicks on notification                      # stepDefinitions.stepDefinition.user_clicks_on_notification()
+  Then clicks on Schedule and verifies the notification # stepDefinitions.stepDefinition.clicks_on_schedule_and_verifies_the_notification()
+      org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //android.widget.TextView[@text='Schedule']' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d084539d-df3c-439a-ac17-bff0c8ec3dc2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at stepDefinitions.stepDefinition.clicks_on_schedule_and_verifies_the_notification(stepDefinition.java:280)
+	at ?.clicks on Schedule and verifies the notification(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:166)
+
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 5:53:38 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="user is able to view private announcement notifications" classname="easy Time Pro Android Application Validation" time="29.088">
+    <error message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SUBHANKAR&apos;, ip: &apos;192.168.4.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 277c3bdd-4593-4126-86a4-88f1a86ec30e&#10;*** Element info: {Using=id, value=com.zkteco.easytimepro:id/portEditText}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 277c3bdd-4593-4126-86a4-88f1a86ec30e
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/portEditText}
+</error>
+    <system-out><![CDATA[
+@TC_37
+Scenario: user is able to view private announcement notifications             # src/test/java/features/etProAndroid.feature:169
+  Given User has successfully logged in                                       # stepDefinitions.stepDefinition.user_has_successfully_logged_in()
+      org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 277c3bdd-4593-4126-86a4-88f1a86ec30e
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/portEditText}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.user_has_successfully_logged_in(stepDefinition.java:42)
+	at ?.User has successfully logged in(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:170)
+
+  When user clicks on notification                                            # stepDefinitions.stepDefinition.user_clicks_on_notification()
+  Then clicks on Announcement and verifies if private notifications are there # stepDefinitions.stepDefinition.clicks_on_Announcement_and_verifies_if_private_notifications_are_there()
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 5:54:18 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="user is able to view Public announcement notifications" classname="easy Time Pro Android Application Validation" time="44.079"/>
+  <testcase name="user is able to view training notifications" classname="easy Time Pro Android Application Validation" time="43.808"/>
+  <testcase name="user is able to view Manual log notifications" classname="easy Time Pro Android Application Validation" time="43.481"/>
+  <testcase name="user is able to view Overtime notifications" classname="easy Time Pro Android Application Validation" time="35.301">
+    <error message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SUBHANKAR&apos;, ip: &apos;192.168.4.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: da7562ff-48d9-46f3-96e5-43c27b628fa8&#10;*** Element info: {Using=id, value=com.zkteco.easytimepro:id/base_menu}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: da7562ff-48d9-46f3-96e5-43c27b628fa8
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/base_menu}
+</error>
+    <system-out><![CDATA[
+@TC_41
+Scenario: user is able to view Overtime notifications             # src/test/java/features/etProAndroid.feature:193
+  Given User has successfully logged in                           # stepDefinitions.stepDefinition.user_has_successfully_logged_in()
+  When user clicks on notification                                # stepDefinitions.stepDefinition.user_clicks_on_notification()
+      org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: da7562ff-48d9-46f3-96e5-43c27b628fa8
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/base_menu}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.user_clicks_on_notification(stepDefinition.java:260)
+	at ?.user clicks on notification(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:195)
+
+  Then clicks on Overtime and verifies if notifications are there # stepDefinitions.stepDefinition.clicks_on_Overtime_and_if_notifications_are_there()
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 5:56:58 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="user is able to view leave notifications" classname="easy Time Pro Android Application Validation" time="89.801"/>
+  <testcase name="user is able to view leave approvals" classname="easy Time Pro Android Application Validation" time="41.247"/>
+  <testcase name="user is able to view approved leaves in processed approvals" classname="easy Time Pro Android Application Validation" time="44.493"/>
+  <testcase name="user is able to view rejected leaves in processed aprovals" classname="easy Time Pro Android Application Validation" time="44.271"/>
+  <testcase name="user is able to filter rejected leaves based upon processed and applied time" classname="easy Time Pro Android Application Validation" time="51.251"/>
+  <testcase name="user is able to filter approved leaves based upon processed and applied time" classname="easy Time Pro Android Application Validation" time="52.421"/>
+  <testcase name="user is able to view Overtime approvals" classname="easy Time Pro Android Application Validation" time="41.65"/>
+  <testcase name="user is able to view approved Overtime in processed approvals" classname="easy Time Pro Android Application Validation" time="46.94"/>
+  <testcase name="user is able to view rejected Overtimes in processed aprovals" classname="easy Time Pro Android Application Validation" time="44.308"/>
+  <testcase name="user is able to filter rejected Overtime based upon processed and applied time" classname="easy Time Pro Android Application Validation" time="50.634"/>
+  <testcase name="user is able to filter approved Overtime based upon processed and applied time" classname="easy Time Pro Android Application Validation" time="43.762">
+    <error message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SUBHANKAR&apos;, ip: &apos;192.168.4.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 289152fd-6be9-46dc-8a12-5f00d3d6faba&#10;*** Element info: {Using=id, value=com.zkteco.easytimepro:id/base_menu}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 289152fd-6be9-46dc-8a12-5f00d3d6faba
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/base_menu}
+</error>
+    <system-out><![CDATA[
+@TC_52
+Scenario: user is able to filter approved Overtime based upon processed and applied time      # src/test/java/features/etProAndroid.feature:267
+  Given User has successfully logged in as Admin                                              # stepDefinitions.stepDefinition.user_has_successfully_logged_in_as_Admin()
+  When user clicks on Approvals                                                               # stepDefinitions.stepDefinition.user_clicks_on_Approvals()
+      org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 289152fd-6be9-46dc-8a12-5f00d3d6faba
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/base_menu}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.user_clicks_on_Approvals(stepDefinition.java:266)
+	at ?.user clicks on Approvals(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:269)
+
+  Then clicks on Overtime, then clicks on processed and verifies if approved leaves are there # stepDefinitions.stepDefinition.clicks_on_overtime_then_clicks_on_processed_and_verifies_if_approved_leaves_are_there()
+  Then User filters Rejected Overtime by processed time                                       # stepDefinitions.stepDefinition.user_filters_rejected_overtime_by_processed_time()
+  Then User filters Rejected Overtime by applied time                                         # stepDefinitions.stepDefinition.user_filters_rejected_overtime_by_applied_time()
+]]></system-out>
+    <system-err><![CDATA[Jul 14, 2020 6:06:01 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

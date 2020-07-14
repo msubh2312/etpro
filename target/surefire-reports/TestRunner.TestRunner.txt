@@ -1,0 +1,103 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 41, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 2,088.93 s <<< FAILURE! - in TestRunner.TestRunner
+User can see all menu options(easy Time Pro Android Application Validation)  Time elapsed: 60.601 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 10, Size: 10
+
+user is able to request for change schedule(easy Time Pro Android Application Validation)  Time elapsed: 99.271 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3edb69eb-c82b-48e7-9488-a93b70e8b88d
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/btn_schedule}
+
+user is able to view all the contacts(easy Time Pro Android Application Validation)  Time elapsed: 101.238 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 143768e2-7b7f-4cdc-947e-3f89619961d5
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/tv_name_cpinfo}
+
+user is able to search contact by Employee ID or Name(easy Time Pro Android Application Validation)  Time elapsed: 99.928 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c7d2c535-1da8-4e84-855b-622de42ecfee
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/et_search_contact}
+
+user is able to get the Public Announcement(easy Time Pro Android Application Validation)  Time elapsed: 53.436 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 4, Size: 4
+
+user is able to Punch after navigating to Menu(easy Time Pro Android Application Validation)  Time elapsed: 83.909 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 772935f3-44aa-49c9-99aa-67be567914cb
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/ll_recent}
+
+user is able to Punch Attendance from dashboard(easy Time Pro Android Application Validation)  Time elapsed: 45.848 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 185d8762-ac4a-49fa-b9e9-5a018a1c7a13
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/ll_recent}
+
+user is able to view Schedule notifications(easy Time Pro Android Application Validation)  Time elapsed: 39.987 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+The element 'By.xpath: //android.widget.TextView[@text='Schedule']' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d084539d-df3c-439a-ac17-bff0c8ec3dc2
+
+user is able to view private announcement notifications(easy Time Pro Android Application Validation)  Time elapsed: 29.088 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 277c3bdd-4593-4126-86a4-88f1a86ec30e
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/portEditText}
+
+user is able to view Overtime notifications(easy Time Pro Android Application Validation)  Time elapsed: 35.301 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: da7562ff-48d9-46f3-96e5-43c27b628fa8
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/base_menu}
+
+user is able to filter approved Overtime based upon processed and applied time(easy Time Pro Android Application Validation)  Time elapsed: 43.762 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 289152fd-6be9-46dc-8a12-5f00d3d6faba
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/base_menu}
+

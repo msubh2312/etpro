@@ -1,0 +1,366 @@
+# Created at 2020-07-14T16:54:01.576
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-07-14T16:54:15.369
+Unexpected IOException with stream:   Then Clicks on outdoor punch and does the punch      # stepDefinitions.stepDefinition.clicks_on_outdoor_punch_and_does_the_punch()
+
+# Created at 2020-07-14T16:54:15.370
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.371
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d2720a27-dfd5-47f2-a2d4-15489156df0d
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/outdoor_spinner_function}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.clicks_on_outdoor_punch_and_does_the_punch(stepDefinition.java:79)
+	at ?.Clicks on outdoor punch and does the punch(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:154)
+
+
+# Created at 2020-07-14T16:54:15.373
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.381
+Unexpected IOException: 7,1,easy Time Pro Android Application Validation,user is able to Outdoor Punch from Dashboard(easy Time Pro Android Application Validation),null,An element could not be located on the page using the given search parameters.\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: d2720a27-dfd5-47f2-a2d4-15489156df0d\000A*** Element info: {Using=id\002C value=com.zkteco.easytimepro:id/outdoor_spinner_function},null,An element could not be located on the page using the given search parameters.\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: d2720a27-dfd5-47f2-a2d4-15489156df0d\000A*** Element info: {Using=id\002C value=com.zkteco.easytimepro:id/outdoor_spinner_function},An element could not be located on the page using the given search parameters.\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: d2720a27-dfd5-47f2-a2d4-15489156df0d\000A*** Element info: {Using=id\002C value=com.zkteco.easytimepro:id/outdoor_spinner_function},org.openqa.selenium.NoSuchElementException: \000AAn element could not be located on the page using the given search parameters.\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: d2720a27-dfd5-47f2-a2d4-15489156df0d\000A*** Element info: {Using=id\002C value=com.zkteco.easytimepro:id/outdoor_spinner_function}\000A
+
+
+# Created at 2020-07-14T16:54:15.388
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.389
+Unexpected IOException with stream: Failed scenarios:
+
+# Created at 2020-07-14T16:54:15.389
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.390
+Unexpected IOException with stream: file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:151
+
+# Created at 2020-07-14T16:54:15.391
+Unexpected IOException with stream: # user is able to Outdoor Punch from Dashboard
+
+# Created at 2020-07-14T16:54:15.392
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.392
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.393
+Unexpected IOException with stream: 1
+
+# Created at 2020-07-14T16:54:15.394
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-07-14T16:54:15.394
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-07-14T16:54:15.395
+Unexpected IOException with stream: )
+
+# Created at 2020-07-14T16:54:15.396
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.396
+Unexpected IOException with stream: 3
+
+# Created at 2020-07-14T16:54:15.397
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-07-14T16:54:15.398
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-07-14T16:54:15.398
+Unexpected IOException with stream: , 
+
+# Created at 2020-07-14T16:54:15.398
+Unexpected IOException with stream: 2 passed
+
+# Created at 2020-07-14T16:54:15.399
+Unexpected IOException with stream: )
+
+# Created at 2020-07-14T16:54:15.400
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.400
+Unexpected IOException with stream: 1m
+
+# Created at 2020-07-14T16:54:15.401
+Unexpected IOException with stream: 45.711s
+
+# Created at 2020-07-14T16:54:15.402
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.402
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.404
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.405
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d2720a27-dfd5-47f2-a2d4-15489156df0d
+*** Element info: {Using=id, value=com.zkteco.easytimepro:id/outdoor_spinner_function}
+
+# Created at 2020-07-14T16:54:15.405
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.406
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-07-14T16:54:15.407
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.407
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-07-14T16:54:15.408
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.408
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-07-14T16:54:15.409
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.410
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-07-14T16:54:15.410
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.411
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-07-14T16:54:15.412
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.413
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-07-14T16:54:15.413
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.414
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-07-14T16:54:15.414
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.415
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-07-14T16:54:15.416
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.416
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+
+# Created at 2020-07-14T16:54:15.417
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.418
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-07-14T16:54:15.418
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.419
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+
+# Created at 2020-07-14T16:54:15.419
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.420
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+
+# Created at 2020-07-14T16:54:15.421
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.421
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+
+# Created at 2020-07-14T16:54:15.422
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.423
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2020-07-14T16:54:15.424
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.425
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+
+# Created at 2020-07-14T16:54:15.425
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.426
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2020-07-14T16:54:15.427
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.427
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2020-07-14T16:54:15.428
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.429
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+
+# Created at 2020-07-14T16:54:15.429
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.430
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+
+# Created at 2020-07-14T16:54:15.430
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.431
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+
+# Created at 2020-07-14T16:54:15.432
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.432
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+
+# Created at 2020-07-14T16:54:15.433
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.434
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ById.findElement(By.java:188)
+
+# Created at 2020-07-14T16:54:15.434
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.435
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2020-07-14T16:54:15.435
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.436
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+
+# Created at 2020-07-14T16:54:15.437
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.437
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2020-07-14T16:54:15.438
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.438
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2020-07-14T16:54:15.439
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.440
+Unexpected IOException with stream: 	at stepDefinitions.stepDefinition.clicks_on_outdoor_punch_and_does_the_punch(stepDefinition.java:79)
+
+# Created at 2020-07-14T16:54:15.440
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.441
+Unexpected IOException with stream: 	at ?.Clicks on outdoor punch and does the punch(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:154)
+
+# Created at 2020-07-14T16:54:15.441
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.442
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.443
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T16:54:15.443
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,TestRunner.TestRunner,null,null,null
+
+

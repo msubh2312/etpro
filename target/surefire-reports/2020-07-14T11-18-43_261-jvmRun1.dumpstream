@@ -1,0 +1,379 @@
+# Created at 2020-07-14T11:20:38.522
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-07-14T11:20:57.276
+Unexpected IOException with stream:   Then Clicks on outdoor punch and does the punch                # stepDefinitions.stepDefinition.clicks_on_outdoor_punch_and_does_the_punch()
+
+# Created at 2020-07-14T11:20:57.277
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.279
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a62c4b0d-eb41-4772-a04c-8f0c7df4b11d
+*** Element info: {Using=xpath, value=//android.widget.TextView[@Text='CheckIn']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at stepDefinitions.stepDefinition.clicks_on_outdoor_punch_and_does_the_punch(stepDefinition.java:82)
+	at ?.Clicks on outdoor punch and does the punch(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:46)
+
+
+# Created at 2020-07-14T11:20:57.280
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.285
+Unexpected IOException with stream:   Then captures the outdoor punch screen                         # stepDefinitions.stepDefinition.captures_the_outdoor_punch_screen()
+
+# Created at 2020-07-14T11:20:57.286
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.357
+Unexpected IOException: 7,1,easy Time Pro Android Application Validation,user is able to Outdoor Punch after navigating to Menu(easy Time Pro Android Application Validation),null,An element could not be located on the page using the given search parameters.\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: a62c4b0d-eb41-4772-a04c-8f0c7df4b11d\000A*** Element info: {Using=xpath\002C value=//android.widget.TextView[@Text='CheckIn']},null,An element could not be located on the page using the given search parameters.\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: a62c4b0d-eb41-4772-a04c-8f0c7df4b11d\000A*** Element info: {Using=xpath\002C value=//android.widget.TextView[@Text='CheckIn']},An element could not be located on the page using the given search parameters.\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: a62c4b0d-eb41-4772-a04c-8f0c7df4b11d\000A*** Element info: {Using=xpath\002C value=//android.widget.TextView[@Text='CheckIn']},org.openqa.selenium.NoSuchElementException: \000AAn element could not be located on the page using the given search parameters.\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SUBHANKAR'\002C ip: '192.168.4.170'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C appPackage: com.zkteco.easytimepro\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C databaseEnabled: false\002C desired: {app: C:\005CUsers\005CAdmin\005Ceclipse-work...\002C autoGrantPermissions: true\002C automationName: UiAutomator2\002C locationServicesAuthorized: true\002C newCommandTimeout: 4000\002C platformName: android}\002C deviceApiLevel: 27\002C deviceManufacturer: motorola\002C deviceModel: Moto G (5S) Plus\002C deviceName: ZY322CFT6B\002C deviceScreenDensity: 480\002C deviceScreenSize: 1080x1920\002C deviceUDID: ZY322CFT6B\002C javascriptEnabled: true\002C locationContextEnabled: false\002C locationServicesAuthorized: true\002C networkConnectionEnabled: true\002C newCommandTimeout: 4000\002C pixelRatio: 3\002C platform: LINUX\002C platformName: Android\002C platformVersion: 8.1.0\002C statBarHeight: 72\002C takesScreenshot: true\002C viewportRect: {height: 1704\002C left: 0\002C top: 72\002C width: 1080}\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: a62c4b0d-eb41-4772-a04c-8f0c7df4b11d\000A*** Element info: {Using=xpath\002C value=//android.widget.TextView[@Text='CheckIn']}\000A
+
+
+# Created at 2020-07-14T11:20:57.419
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.421
+Unexpected IOException with stream: Failed scenarios:
+
+# Created at 2020-07-14T11:20:57.422
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.424
+Unexpected IOException with stream: file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:43
+
+# Created at 2020-07-14T11:20:57.425
+Unexpected IOException with stream: # user is able to Outdoor Punch after navigating to Menu
+
+# Created at 2020-07-14T11:20:57.427
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.428
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.430
+Unexpected IOException with stream: 1
+
+# Created at 2020-07-14T11:20:57.431
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-07-14T11:20:57.433
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-07-14T11:20:57.434
+Unexpected IOException with stream: )
+
+# Created at 2020-07-14T11:20:57.436
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.437
+Unexpected IOException with stream: 4
+
+# Created at 2020-07-14T11:20:57.439
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-07-14T11:20:57.440
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-07-14T11:20:57.440
+Unexpected IOException with stream: , 
+
+# Created at 2020-07-14T11:20:57.441
+Unexpected IOException with stream: 1 skipped
+
+# Created at 2020-07-14T11:20:57.442
+Unexpected IOException with stream: , 
+
+# Created at 2020-07-14T11:20:57.443
+Unexpected IOException with stream: 2 passed
+
+# Created at 2020-07-14T11:20:57.443
+Unexpected IOException with stream: )
+
+# Created at 2020-07-14T11:20:57.444
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.445
+Unexpected IOException with stream: 2m
+
+# Created at 2020-07-14T11:20:57.446
+Unexpected IOException with stream: 12.849s
+
+# Created at 2020-07-14T11:20:57.447
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.447
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.448
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.449
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUBHANKAR', ip: '192.168.4.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Admin\eclipse-work..., appPackage: com.zkteco.easytimepro, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Admin\eclipse-work..., autoGrantPermissions: true, automationName: UiAutomator2, locationServicesAuthorized: true, newCommandTimeout: 4000, platformName: android}, deviceApiLevel: 27, deviceManufacturer: motorola, deviceModel: Moto G (5S) Plus, deviceName: ZY322CFT6B, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: ZY322CFT6B, javascriptEnabled: true, locationContextEnabled: false, locationServicesAuthorized: true, networkConnectionEnabled: true, newCommandTimeout: 4000, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a62c4b0d-eb41-4772-a04c-8f0c7df4b11d
+*** Element info: {Using=xpath, value=//android.widget.TextView[@Text='CheckIn']}
+
+# Created at 2020-07-14T11:20:57.450
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.451
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-07-14T11:20:57.452
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.453
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-07-14T11:20:57.453
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.454
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-07-14T11:20:57.455
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.456
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-07-14T11:20:57.457
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.457
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-07-14T11:20:57.458
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.459
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-07-14T11:20:57.459
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.461
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-07-14T11:20:57.461
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.462
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-07-14T11:20:57.463
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.464
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+
+# Created at 2020-07-14T11:20:57.464
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.465
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-07-14T11:20:57.466
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.467
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+
+# Created at 2020-07-14T11:20:57.467
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.468
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+
+# Created at 2020-07-14T11:20:57.469
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.470
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+
+# Created at 2020-07-14T11:20:57.470
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.470
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2020-07-14T11:20:57.471
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.472
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+
+# Created at 2020-07-14T11:20:57.473
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.473
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2020-07-14T11:20:57.474
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.475
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2020-07-14T11:20:57.476
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.476
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2020-07-14T11:20:57.477
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.478
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+
+# Created at 2020-07-14T11:20:57.479
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.480
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+
+# Created at 2020-07-14T11:20:57.480
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.481
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+
+# Created at 2020-07-14T11:20:57.481
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.482
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2020-07-14T11:20:57.483
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.483
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2020-07-14T11:20:57.484
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.485
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+
+# Created at 2020-07-14T11:20:57.485
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.486
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2020-07-14T11:20:57.487
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.487
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2020-07-14T11:20:57.488
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.489
+Unexpected IOException with stream: 	at stepDefinitions.stepDefinition.clicks_on_outdoor_punch_and_does_the_punch(stepDefinition.java:82)
+
+# Created at 2020-07-14T11:20:57.490
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.490
+Unexpected IOException with stream: 	at ?.Clicks on outdoor punch and does the punch(file:///C:/Users/Admin/eclipse-workspace/easyTimeProAndroidBDD/src/test/java/features/etProAndroid.feature:46)
+
+# Created at 2020-07-14T11:20:57.491
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.492
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.492
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-14T11:20:57.493
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,TestRunner.TestRunner,null,null,null
+
+
